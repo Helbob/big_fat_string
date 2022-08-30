@@ -22,6 +22,7 @@ function generate() {
     output.textContent = result;
   } else if (optionsValue == "fullname") {
     let result = inputValue.split(" ")[1];
+    //    let result = inputValue.substring(0, inputValue.indexOf(" ")) Could also be used
     output.textContent = result;
   } else if (optionsValue == "fullnamelenght") {
     let result = inputValue.substring(0, inputValue.indexOf(" ")).length;
